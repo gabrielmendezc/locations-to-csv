@@ -1,0 +1,37 @@
+{
+  "name": "locations-to-csv",
+  "version": "1.0.0",
+  "description": "Export world-wide locations to CSV file",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "ts-node-dev --respawn src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielmendezc/locations-to-csv.git"
+  },
+  "keywords": [
+    "Locations",
+    "Typescript",
+    "World",
+    "Javascript",
+    "Algorithms",
+    "CSV",
+    "MySQL",
+    "SQL"
+  ],
+  "author": "Gabriel Méndez & Nicolás Tarragona",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabrielmendezc/locations-to-csv/issues"
+  },
+  "homepage": "https://github.com/gabrielmendezc/locations-to-csv#readme",
+  "devDependencies": {
+    "@types/node": "^13.9.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "promise-mysql": "^4.1.3"
+  }
+}
